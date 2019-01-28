@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/httpcore-ab-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/httpcore-nio-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/httpcore-osgi-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/fluent-hc-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpclient-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpclient-cache-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpclient-osgi-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpclient-win-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpcore-4.4.11.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/httpmime-4.5.7.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/jna-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/httpcomponents-core-4.4.11-bin/client/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/Programming/JavaWebDevelopment/5/Rest-Server-Client/jars/java-json.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
