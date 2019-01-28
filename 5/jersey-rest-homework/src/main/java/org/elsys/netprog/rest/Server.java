@@ -75,7 +75,7 @@ public class Server {
 	@GET
 	@Path("/serverInfo")
 	@Produces(value={MediaType.APPLICATION_JSON})
-	public JSONBuilder getGames() {
+	public JSONBuilder getServerInfo() {
 		randomize();
 		JSONBuilder json = new JSONBuilder();
 		json.setLength(length);
@@ -86,7 +86,7 @@ public class Server {
 	@POST
 	@Path("/sendInfo")
 	@Consumes(value={MediaType.APPLICATION_JSON})
-	public Response startGame(JSONBuilder json) throws URISyntaxException, JSONException{
+	public Response sendIntoToServer(JSONBuilder json) throws URISyntaxException, JSONException{
 		byte[] requested_input = Base64.getDecoder().decode(json.getClient_bytes());
 		System.out.println("Server: " + new String(input));
 		System.out.println("Server_hash: " + getMd5(new String(input)));
